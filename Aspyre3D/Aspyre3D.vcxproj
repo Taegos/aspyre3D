@@ -19,16 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Fatal.cpp" />
-    <ClCompile Include="InputEmitter.cpp" />
+    <ClCompile Include="Console.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Log.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="RenderWindow.cpp" />
+    <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Fatal.h" />
-    <ClInclude Include="InputEmitter.h" />
+    <ClInclude Include="Console.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Log.h" />
     <ClInclude Include="InputState.h" />
-    <ClInclude Include="RenderWindow.h" />
+    <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="todo.txt" />

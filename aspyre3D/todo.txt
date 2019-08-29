@@ -1,4 +1,6 @@
 SPELISTA: https://www.youtube.com/watch?v=gQIG77PfLgo&list=PLcacUGyBsOIBlGyQQWzp6D1Xn6ZENx9Y2
 
 1. Kolla ep. 1-4 (KLART)
-2. Callbackbaserad input-handling (skapa input state, behandla det) (18%)
+2. InputState (KLART)
+3. Logger (KLART)
+4. Kolla 8-12

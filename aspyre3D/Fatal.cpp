@@ -1,6 +1,5 @@
 #include "Fatal.h"
 #include <Windows.h>
-#include <comdef.h>
 
 void Fatal::Error(const std::string &message)
 {
@@ -8,9 +7,9 @@ void Fatal::Error(const std::string &message)
 	exit(-1);
 }
 
-void Fatal::Error(HRESULT hr)
-{
-	_com_error error(hr);
-	MessageBoxA(NULL, error.ErrorMessage(), "Fatal Error", MB_ICONERROR);
-	exit(-1);
-}
+//void Fatal::Error(HRESULT hr)
+//{
+//	_com_error error(hr);
+//	MessageBoxA(NULL, error.ErrorMessage(), "Fatal Error", MB_ICONERROR);
+//	exit(-1);
+//}
